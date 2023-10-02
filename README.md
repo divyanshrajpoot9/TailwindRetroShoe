@@ -1,5 +1,5 @@
 # TailwindRetroShoe
-### Hosted Link:
+### Hosted Link: https://divyanshrajpoot9.github.io/TailwindRetroShoe/
 Tailwind CSS is a utility-first CSS framework that allows you to build responsive and customizable user interfaces quickly. It provides a set of utility classes that you can use directly in your HTML to style your elements. Unlike traditional CSS frameworks that often require writing custom CSS, Tailwind CSS focuses on composing styles through utility classes.
 Here's a detailed explanation of Tailwind CSS and how to use it:
 
