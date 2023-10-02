@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    boxShadow: {
+                        'lb-5': '5px 5px',
+                        'lb-3': '3px 3px'
+                    }
+                }
+            }
+        }
+        // box-shadow: 5px 10px;
+    </script>
+</head>
+
+<body>
+    <main class="container">
+        <div class="w-[100vw] bg-black h-[25vh] flex justify-center items-center text-white lg:h-[30vh]">
+            <div class="lg:ml-[20rem]">
+                <h1 class="text-4xl font-bold">Retro Shoe</h1>
+                <p class="text-xl">$89.00 <span class="text-[#23965c]">IN STOCK</span></p>
+            </div>
+        </div>
+
+
+
+        <div class="w-[100vw] px-[6rem] flex flex-col justify-center items-center md:flex-row">
+            <div
+                class="flex justify-center w-fit shadow-lb-5 shadow-[#2dd4bf] md:mr-4 lg:absolute lg:left-[14rem] lg:top-[4rem]">
+                <!-- border-r-4 border-b-4 border-[#2dd4bf] -->
+                <img src="./image.jpg" class="w-[12rem] h-[18rem]" alt="">
+            </div>
+            <div class="flex flex-col justify-center items-center lg:justify-around lg:ml-[20rem] md:w-[100%]">
+
+                <div class="flex justify-evenly my-4 lg:px-[2rem] lg:w-3/4 w-[100%] md:w-[90%]">
+                    <div class="bg-black p-2 cursor-pointer text-white shadow-lb-3 shadow-[#2dd4bf]">XS</div>
+                    <div
+                        class="py-2 cursor-pointer px-3 hover:shadow-lb-3 hover:shadow-[#2dd4bf] hover:bg-black hover:text-white">
+                        S</div>
+                    <div
+                        class="py-2 cursor-pointer px-3 hover:shadow-lb-3 hover:shadow-[#2dd4bf] hover:bg-black hover:text-white">
+                        M</div>
+                    <div
+                        class="py-2 cursor-pointer px-3 hover:shadow-lb-3 hover:shadow-[#2dd4bf] hover:bg-black hover:text-white">
+                        L</div>
+                    <div
+                        class="p-2 cursor-pointer hover:shadow-lb-3 hover:shadow-[#2dd4bf] hover:bg-black hover:text-white">
+                        XL</div>
+                </div>
+
+                <div class="flex flex-col md:flex-row items-center justify-center">
+                    <div class="border-2 flex flex-1 w-[140px] py-2 justify-center items-center border-black bg-[#2dd4bf] font-bold cursor-pointer">BUY NOW</div>
+                    <div class="border-2 flex flex-1 my-4 md:mx-4 justify-center items-center w-[140px] py-2 font-bold hover:border-black hover:bg-[#2dd4bf] cursor-pointer">
+                        ADD TO BAG</div>
+                    <div class="flex-0"></div>
+                </div>
+                <div class="text-[#8da6bc] mb-4 mt-4">
+                    Free shipping on all continental US orders.
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
